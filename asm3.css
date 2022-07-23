@@ -1,0 +1,317 @@
+#banner{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+.section-title{
+    text-align: left;
+    padding: 20px 20px 20px 0px;
+} /*điều chỉnh khoảng cách tiêu đề*/
+.name {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} /*điều chỉnh tên ra giữa background*/
+nav {
+    display: inline-block;
+    width: 100%;
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+    padding: 10px;
+    background: white;
+    position: relative;
+} /*tạo khối cho thanh điều hướng*/
+.dieuhuong1{
+    float: left;
+    margin-left: 200px;
+    border-left: 1px solid grey;
+    padding-left: 15px;
+} /*tạo khối cho đường link trên thanh điều hướng*/
+.dieuhuong2{
+    float: left;
+    margin-left: 40px;
+    border-left: 1px solid grey;
+    padding-left: 15px;
+}/*tạo khối cho đường link trên thanh điều hướng*/
+.dieuhuong3{
+    float: right;
+    margin-right: 200px;
+    border-left: 1px solid grey;
+    padding-left: 15px;
+}/*tạo khối cho đường link trên thanh điều hướng*/
+.dieuhuong4{
+    float: right;
+    margin-right: 40px;
+    border-left: 1px solid grey;
+    padding-left: 15px;
+}/*tạo khối cho đường link trên thanh điều hướng*/
+a {
+    display:inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    height: 100%;
+  } 
+  
+ a:hover {
+    color: white;
+    background-color: #db7093;
+    font-weight: bold;
+  }
+.hinhdaidien{
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 5px solid gold;
+    position: absolute;
+    top: 750px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+} /* điều chỉnh hình đại diện ra giữa thanh điều hướng *//**/
+.container-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+} /*tạo khối cho toàn phần giới thiệu*/
+#target{
+    padding-top: 50px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 100px;
+    text-align: justify;
+} /*khối 1 của phần giới thiệu*/
+#personal-info{
+    padding: 50px 80px 100px 80px;
+    background-color: gainsboro;
+} /*khối 2 của phần giới thiệu*/
+.dsthongtin{
+    list-style: none;
+    padding: 0;
+    line-height: 3.5ch;
+} /* chỉnh list thông tin cá nhân*/
+.icon-tt{
+    color:#199cdb;
+    margin-top: 30px;
+    padding-left: 10px;
+} /* thêm các mạng xã hội */
+.container-kn{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    align-content: space-around;
+    justify-content: space-around;
+} /*tạo khối cho container kinh nghiệm*/
+.kinhnghiem{
+    display: grid;
+    grid-template-columns:75% 25%;
+    text-align: left;
+    border: 1px solid #d6c08d;
+    margin: 20px;
+    
+}/*khối đầu tiên trong container kinh nghiệm*/
+.kinhnghiem1{
+    padding: 40PX 40px 40px 50px;
+    justify-items: start;
+    align-items: center;
+    
+}
+.kinhnghiem2{
+    grid-column: 1/-1;
+    list-style: none;
+    line-height: 1.8;
+    padding-left: 0;
+    margin: 0px 30px 30px 30px;
+    list-style-position: outside;
+}/*khối thứ 3 trong container kinh nghiệm, gồm các thông tin kinh nghiệm*/
+.kinhnghiem2 li::before {
+    content: "\2022"; 
+    color: #199cdb; 
+    font-weight:bold;
+    float: left; 
+    margin-left: 20px;
+    margin-right: 20px;
+  }/*tạo dấu chấm tròn đầu dòng*/
+.hocvan{
+    display: grid;
+    grid-template-columns:75% 25%;
+    text-align: left;
+    border: 1px solid #d6c08d;
+    margin: 20px;
+}/*tạo khối container học vấn gồm 3 phần giống kinh nghiệm*/
+.thongtin{
+    color: gray;
+    margin-left: 50px;
+}/*tạo kiểu cho từng phần items*/
+
+.ic-briefcase, .ic-pencil, .ic-bike, .ic-telescope, .ic-tools-2, .ic-mic{
+    font-size: 40px;
+    color: gray;
+    padding: 40px 20px 40px 0px;   
+}
+.sothich{
+    grid-column:  1/-1;
+} /*phần thứ 3 trong container sở thích*/
+.like{
+    display: grid;
+    grid-template-columns:75% 25%;
+    border: 1px solid #d6c08d;
+    margin: 20px;
+}/*tạo khối cho tiêu đề và icon của container cho phần sở thích*/
+.love{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}/*khối bên trong của phần thứ 3*/
+.ic-megaphone{
+   font-size: 30px;
+   color: gray;
+   padding-bottom: 30px;
+   position: absolute;
+   top: 12px;
+   right: 15px;
+}/*điều chỉnh icon vào giữa vòng*/
+.ic-map{
+        font-size: 30px;
+        color: gray;
+        padding-bottom: 30px;
+        position: absolute;
+        top: 12px;
+        right: 12px;
+}/*điều chỉnh icon vào giữa vòng*/
+.ic-strategy{
+    font-size: 30px;
+    color: gray;
+    padding-bottom: 30px;
+    position: absolute;
+    top: 12px;
+    right: 20px;
+}/*điều chỉnh icon vào giữa vòng*/
+.ic-basket{
+    font-size: 30px;
+    color: gray;
+    padding-bottom: 30px;
+    position: absolute;
+    top: 12px;
+    right: 10px;
+}/*điều chỉnh icon vào giữa vòng*/
+.vongtron{
+    border: 2px solid #199cdb;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: relative;
+      margin-bottom: 10px;
+ }/*vòng tròn bao quanh icon*/
+.ngonngu2{
+    background: #199cdb;
+display: inline-block;
+height: 2px;
+margin-right: 10px;
+width: 45px;
+}/*khối màu sắc thể hiện level ngôn ngữ*/
+.ngonngu1{
+    background: grey;
+display: inline-block;
+height: 2px;
+margin-right: 10px;
+width: 45px;
+}/*khối màu sắc thể hiện level ngôn ngữ*/
+.cc1{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 15px;
+    margin: 10px;
+    border: 1px solid #d6c08d;
+}/*khối chứng chỉ 1*/
+.cc1-1{
+    padding: 0px 0px 20px 20px;
+    text-transform: uppercase;
+}/*điều chỉnh vị trí các mảng trong chứng chỉ*/
+.cc1-2{
+    padding: 0px 0px 5px 20px;
+    color: gray;
+}/*điều chỉnh vị trí các mảng trong chứng chỉ*/
+
+/*khối bao bọc 3 dự án*/
+.cv{
+    display: flex;
+    flex-direction: column;
+}/*khối dự án đầu tiên bao bọc 4 khối con*/
+.cv-hinh{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}/*điều chỉnh hình của dự án*/
+.cv-ten{
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    text-transform: uppercase;
+    text-align: left;
+    border: 1px solid gray;
+    padding: 10px;
+    color: black;
+}/*tên của dự án*/
+.cv-bieutuong{
+    display: inline-block;
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    border: 1px solid gray;
+    padding: 10px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+    color: gray;
+}/*khối chứa các biểu tượng trong phần dự án*/
+table {
+    display: inline-block;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+th {
+    border: none;
+    padding: 10px;
+    text-align: left;
+    Font-weight: normal;
+    color: gray;
+}
+tr {
+    border: 1px solid gray;
+    padding: 10px;
+}/*bảng mô tả công việc*/
+.hinhbauduc{
+    width: 50px;
+    height: 30px;
+    border-radius: 42%;
+    border: 2px solid #199cdb;
+    display: inline-block;
+    background-color: #199cdb;
+    position: relative;
+}/*tạo hình bầu ôm phần năm*/
+.nam{
+    position: relative;
+    color: white;
+    margin-left: 6px;
+}/*điều chỉnh năm trong phần dự án*/
+.bieutuong{
+    vertical-align: -10px;
+    margin-left: 20px;
+    color: gray;
+    padding-top: 5px;
+}/*điều chỉnh vị trí icon và text*/
+.footer1{
+    display: inline-block;
+    padding-left: 40px;
+    color:#199cdb;
+}/*tạo khối cho phần footer của web*/
+.pic-cc{
+    display: block;
+    width: 100%;
+    height: auto;
+}

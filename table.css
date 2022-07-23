@@ -1,0 +1,46 @@
+@media (max-width: 768px) and (min-width:500px){
+.hinhdaidien{ display: none;}
+nav {
+    display: block;
+    margin-bottom: 20px;
+    overflow: hidden;
+    width: 100%;
+    text-align: left;
+}
+.dieuhuong1{  display: block; margin: 20px; padding: 10px; float: none;}
+.dieuhuong2{  display: block; margin: 20px; padding: 10px; float: none;}
+.dieuhuong3{  display: block;margin: 20px; padding: 10px; float: none;}
+.dieuhuong4{  display: block;margin: 20px; padding: 10px; float: none;}
+
+section > .container {
+    display: inline-block;
+    width: 100%;
+    margin-left: 25px;
+}
+.pic-cc{
+    max-width: 150px;}
+.cv-ten {
+    font-size: 10px;
+}
+.cv-bieutuong {
+    font-size: 10px;
+}
+table{
+    font-size: 10px;
+}
+.nam{
+    position: relative;
+    color: white;
+    margin-left: 0px;
+}
+.cc1{
+    display: inline-block;
+padding-top: 20px;}
+.cc1-1{padding-top: 20px;}
+.nam{
+    position: relative;
+    color: white;
+    padding-left: 1px;
+    padding-top: 6px;
+  }
+}

@@ -1,0 +1,21 @@
+* {
+    margin: 0px;
+}
+
+.bg-grey {
+    background: #f7f7f7;
+}
+
+section > .container{
+    width: 1170px;
+    display: block;
+    margin: auto;
+    padding: 0;
+
+
+}
+
+#nav-bar {
+    text-align: center;
+}
+ 

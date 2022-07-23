@@ -1,0 +1,27 @@
+@media (max-width: 500px){
+.hinhdaidien{ display: none;}
+nav {
+  display: block;
+  margin-bottom: 20px;
+  overflow: hidden;
+  width: 100%;
+  text-align: left;
+  color: #199cdb;
+}
+.dieuhuong1{  display: block; margin: 20px; padding: 10px; float: none; }
+.dieuhuong2{  display: block; margin: 20px; padding: 10px; float: none; }
+.dieuhuong3{  display: block;margin: 20px; padding: 10px; float: none; }
+.dieuhuong4{  display: block;margin: 20px; padding: 10px; float: none; }
+section > .container{
+  width: 500px;
+  display: block;
+  margin: auto;
+  padding: 0;
+}
+.nam{
+  position:absolute;
+  color: white;
+  padding-top: 1px;
+  margin-left: 6px;
+}
+}
